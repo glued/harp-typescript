@@ -6,7 +6,7 @@
 # harp-typescript
 
 [Harp] boilerplate with [Typescript] and [webpack] for ES6+ friendly development.
-
+If you prefer Babel, look [here](https://github.com/glued/harp-babel)
 
 I also have a new [Atom package](https://github.com/glued/harpy) which make using harp a snap with atom.
 
