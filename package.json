@@ -1,0 +1,29 @@
+{
+  "name": "harp-typescript",
+  "version": "0.0.6",
+  "description": "A harp boilerplate with typescript / ES2015",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "prod": "NODE_ENV=production webpack -p --config webpack.production.config.js",
+    "win-prod": "set NODE_ENV=production && webpack -p --config webpack.production.config.js",
+    "deploy": "npm run prod && harp compile && surge ./www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glued/harp-typescript.git"
+  },
+  "author": "Richard Worsfold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glued/harp-typescript/issues"
+  },
+  "homepage": "https://github.com/glued/harp-typescript",
+  "devDependencies": {
+    "harp": "^0.20.0",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.1"
+  }
+}
