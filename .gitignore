@@ -13,7 +13,7 @@ pids
 # HARP BUILD FOLDER
 www
 
-# BABELJS BUILDS
+# TYPESCRIPT BUILDS
 public/build
 
 www
