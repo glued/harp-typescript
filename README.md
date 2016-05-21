@@ -2,10 +2,10 @@
 [Atom]:https://atom.io/
 [Babel]:http://babeljs.io
 [webpack]:https://webpack.github.io/
-
+[Harp]:http://harpjs.com
 # harp-typescript
 
-[Harp] boilerplate with [Babel] and [webpack] for ES6+ friendly development.
+[Harp] boilerplate with [Typescript] and [webpack] for ES6+ friendly development.
 
 
 I also have a new [Atom package](https://github.com/glued/harpy) which make using harp a snap with atom.
